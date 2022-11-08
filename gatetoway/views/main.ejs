@@ -1,0 +1,225 @@
+<%- include("header") -%>
+<!-- first section -->
+<style>
+#a1 {
+  font-weight: bold;
+}
+#icon{
+  position: absolute;
+  color: black;
+}
+</style>
+<div class="firstSection">
+  <h1 class="visually-hidden">Features examples</h1>
+  <div class="container px-4 py-5" id="featured-3">
+    <h1 class="pb-2 border-bottom" id="a1">Dashboard</h1>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon">
+          <svg class="bi" width="1em" height="1em" ><use xlink:href="#collection"/></svg>
+          <i class="fa fa-book" id="icon"></i>
+        </div>
+        <h2>Get E-Books</h2>
+        <p>Here you can avail the books related to CS branch.</p>
+        <a  target="_blank" href="/books" class="icon-link">
+          Call to action
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+          <i class="fa fa-question" id="icon"></i>
+        </div>
+        <h2>Practice MCQ</h2>
+        <p>Here you can avail the MCQs related to CS branch.</p>
+        <a target="_blank" href="/exam" class="icon-link">
+          Call to action
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
+          <i class="fa fa-database" id="icon"></i>
+        </div>
+        <h2>Previous Year Papers</h2>
+        <p>Here you can avail previous year papers.</p>
+        <a target="_blank" href="/prev" class="icon-link">
+          Call to action
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+          </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+</div>
+
+<!-- CAROUSEL -->
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-image: url('/css/Frame1 1.svg') , linear-gradient(135deg, #71b7e6, #9b59b6);>
+        <svg class="bd-placeholder-img" href="/css/Frame11.svg" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+<!--href="/css/master.css"-->
+<img src="/css/Frame11.svg" alt="" height="100%" width="100%">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>C / C++</h1>
+            <p style="color:white">Get Handpicked Notes for C and C++. Grab Them now !!</p>
+            <p><a class="btn btn-lg btn-primary" href="/CPlusPlus" target="_blank">Click Here</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('/css/Frame1 2.svg') , linear-gradient(135deg, #71b7e6, #9b59b6);>
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+<img src="/css/Frame12.svg" alt="" height="100%" width="100%">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Java</h1>
+            <p style="color:white">Want to Ace Placements?? Grab these shortlisted key points.</</p>
+            <p><a class="btn btn-lg btn-primary" href="/Java" target="_blank">Click Here</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('/css/Frame1 2.svg') , linear-gradient(135deg, #71b7e6, #9b59b6);>
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+<img src="/css/Frame13.svg" alt="" height="100%" width="100%">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Python</h1>
+            <p style="color:white">Learn Python within minutes. Read the shorlisted Documentation.</p>
+            <p><a class="btn btn-lg btn-primary" href="/Python" target="_blank">Click here</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!--end of carousel -->
+<div class="b-example-divider"></div>
+
+<!-- Hanging Icons -->
+<div class="container px-4 py-5" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Important News</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
+        </div>
+        <div>
+          <h2>GATE 2023</h2>
+          <p>IIT Kanpur released the official GATE 2023 exam notification on July 27, 2022, for applicants planning to take the upcoming exam. The GATE exam will be held on weekends during the first two weeks of February 2023 (i.e., 4, 5, 11, and 12).</p>
+          <a href="https://gate.iitk.ac.in/" target="_blank" class="btn btn-primary">
+            Enroll Now
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"/></svg>
+        </div>
+        <div>
+          <h2>BARC</h2>
+          <p>The Bhabha Atomic Research Centre (BARC) releases the BARC Recruitment 2023 notification every year of the examination. The official notification of 2023 is expected to be released soon on the official website.</p>
+          <a href="https://www.barconlineexam.in/" target="_blank" class="btn btn-primary">
+            Enroll Here
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"/></svg>
+        </div>
+        <div>
+          <h2>ISRO</h2>
+          <p>Indian Space Research Organization (ISRO) will publish a notification for the recruitment of Scientist/Engineer “SC”. This ISRO Recruitment 2023 will be done for different BE/BTech disciplines Computer Science.</p>
+          <a href="https://www.isro.gov.in/Careers.html" target="_blank" class="btn btn-primary">
+            Enroll Here
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <!-- End Section -->
+  <div class="container px-4 py-5" id="icon-grid">
+    <h2 class="pb-2 border-bottom">Icon grid</h2>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg>
+        <div>
+          <h4 class="fw-bold mb-0">Featured title</h4>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg>
+        <div>
+          <h4 class="fw-bold mb-0">Featured title</h4>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg>
+        <div>
+          <h4 class="fw-bold mb-0">Featured title</h4>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
+        <div>
+          <h4 class="fw-bold mb-0">Featured title</h4>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"/></svg>
+        <div>
+          <h4 class="fw-bold mb-0">Featured title</h4>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"/></svg>
+        <div>
+          <h4 class="fw-bold mb-0">Featured title</h4>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"/></svg>
+        <div>
+          <h4 class="fw-bold mb-0">Featured title</h4>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"/></svg>
+        <div>
+          <h4 class="fw-bold mb-0">Featured title</h4>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="b-example-divider"></div>
+
+<%- include("footer") -%>

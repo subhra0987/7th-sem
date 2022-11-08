@@ -1,0 +1,32 @@
+<%- include("header") -%>
+
+<div class="main-div">
+
+  <div class="inner-div">
+    <form action="/osQuiz" method="post">
+    <h2 class="questionos"><%=questionos%></h2>
+    <ul>
+      <li>
+        <input type="checkbox" name="option1os" id="ans1os" class="answeros" >
+        <label for="ans1os" id="option1os"> <%=option1os%> </label>
+      </li>
+      <li>
+        <input type="checkbox" name="option2os" id="ans2os" class="answeros" >
+        <label for="ans2os" id="option2os"><%=option2os%></label>
+      </li>
+      <li>
+        <input type="checkbox" name="option3os" id="ans3os" class="answeros" >
+        <label for="ans3os" id="option3os"><%=option3os%></label>
+      </li>
+      <li>
+        <input type="checkbox" name="option4os" id="ans4os" class="answeros">
+        <label for="ans4os" id="option4os"><%=option4os%></label>
+      </li>
+    </ul>
+          <button  id="submit" type="submit" name="button">submit</button>
+    </form>
+
+  </div>
+
+</div>
+<%- include("footer") -%>

@@ -1,0 +1,32 @@
+<%- include("header") -%>
+
+<div class="main-div">
+
+  <div class="inner-div">
+    <form action="/tocQuiz" method="post">
+    <h2 class="questiontoc"><%=questiontoc%></h2>
+    <ul>
+      <li>
+        <input type="checkbox" name="option1toc" id="ans1toc" class="answertoc" >
+        <label for="ans1toc" id="option1toc"> <%=option1toc%> </label>
+      </li>
+      <li>
+        <input type="checkbox" name="option2toc" id="ans2toc" class="answertoc" >
+        <label for="ans2toc" id="option2toc"><%=option2toc%></label>
+      </li>
+      <li>
+        <input type="checkbox" name="option3toc" id="ans3toc" class="answertoc" >
+        <label for="ans3toc" id="option3toc"><%=option3toc%></label>
+      </li>
+      <li>
+        <input type="checkbox" name="option4toc" id="ans4toc" class="answertoc">
+        <label for="ans4toc" id="option4toc"><%=option4toc%></label>
+      </li>
+    </ul>
+          <button  id="submit" type="submit" name="button">submit</button>
+    </form>
+
+  </div>
+
+</div>
+<%- include("footer") -%>

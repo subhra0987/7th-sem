@@ -1,0 +1,99 @@
+<%- include("header") -%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    .about-1{
+      margin: 30px;
+      padding: 5px;
+
+    }
+    .about-1 h1 {
+      text-align: center;
+      color: black;
+      font-weight: bold;
+    }
+   .about-1 p {
+      text-align: center;
+      padding: 3px;
+    }
+  .about-item {
+      margin-bottom: 20px;
+      margin-top:20px;
+      background-color: white;
+      padding: 80px,30px;
+      box-shadow: 0 0 9px rgb(121, 3, 83);
+    }
+    .about-item i{
+      font-size: 43px;
+      margin: 0;
+    }
+    .about-item h4{
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+    .about-item hr{
+      width: 400px;
+      height: 5px;
+      background-color: #5fbff9;
+      margin: 0 auto;
+      border: none;
+    }
+    .about-item p{
+      margin-top: 20px;
+    }
+    .about-item:hover {
+      background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    }
+    #p1 {
+      font-weight: bold;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <section class="about">
+    <div class="about-1">
+      <h1 class="pb-2 border-bottom">About Us</h1>
+      <p id="p1">This is a learning webpage which includes subject wise E-books, Practice MCQs, Previous year papers and Sample Papers of CS branch.</p>
+    </div>
+    <div class="about-2">
+      <div class="content-box-lg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="about-item text-center" id="abc">
+                <i class="fa fa-2x fa-book"></i>
+                <h4>MISSION</h4>
+                <hr>
+                <p id="p1">
+                  This webpage's goal is to make the students acquainted with the CS subjects by providing subject wise E-books, Practice MCQs, Previous year papers and Sample Papers of CS branch.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="about-item text-center" id="abc">
+                <i class="fa fa-2x fa-globe"></i>
+                <h4>VISION</h4>
+                <hr>
+                <p id="p1">
+                  Our vision is to help the students prepare for the job and gate entrance exam by helping them with the good study materials along with lots of MCQs and sample papers for better practice.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+<%- include("footer") -%>

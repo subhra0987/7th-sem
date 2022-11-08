@@ -1,0 +1,32 @@
+<%- include("header") -%>
+
+<div class="main-div">
+
+  <div class="inner-div">
+    <form action="/coaQuiz" method="post">
+    <h2 class="questioncoa"><%=questioncoa%></h2>
+    <ul>
+      <li>
+        <input type="checkbox" name="option1coa" id="ans1coa" class="answercoa" >
+        <label for="ans1coa" id="option1coa"> <%=option1coa%> </label>
+      </li>
+      <li>
+        <input type="checkbox" name="option2coa" id="ans2coa" class="answercoa" >
+        <label for="ans2coa" id="option2coa"><%=option2coa%></label>
+      </li>
+      <li>
+        <input type="checkbox" name="option3coa" id="ans3coa" class="answercoa" >
+        <label for="ans3coa" id="option3coa"><%=option3coa%></label>
+      </li>
+      <li>
+        <input type="checkbox" name="option4coa" id="ans4coa" class="answercoa">
+        <label for="ans4coa" id="option4coa"><%=option4coa%></label>
+      </li>
+    </ul>
+          <button  id="submit" type="submit" name="button">submit</button>
+    </form>
+
+  </div>
+
+</div>
+<%- include("footer") -%>

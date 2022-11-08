@@ -1,0 +1,31 @@
+<%- include("header") -%>
+<div class="main-div">
+<div class="inner-div">
+
+  <h2 class="questiondm">Your Score is= <%= scoredm %>/5</h2>
+  <ul>
+    <li>Q1:  When a process is in a “Blocked” state waiting for some I/O service. When the service is completed, it goes to the __________</li>
+    <h4>Ready State </h4>
+    <h5>Explaination:Suppose that a process is in “Blocked” state waiting for some I/O service. When the service is completed, it goes to the ready state. Process never goes directly to the running state from the waiting state. Only processes which are in ready state go to the running state whenever CPU allocated by operating system.</h5>
+
+    <li>Q2:   Cascading termination refers to the termination of all child processes if the parent process terminates ______</li>
+    <h4>Normally or abnormally </h4>
+    <h5>Explanation: Cascading termination refers to the termination of all child processes if the parent process terminates Normally or Abnormally. Some systems don’t allow child processes to exist if the parent process has terminated. Cascading termination is normally initiated by the operating system.</h5>
+
+    <li>Q3:  The FCFS algorithm is particularly troublesome for ____________</li>
+    <h4>time sharing systems</h4>
+    <h5>Explaination:In a time sharing system, each user needs to get a share of the CPU at regular intervals.</h5>
+
+    <li>Q4: A deadlock avoidance algorithm dynamically examines the __________ to ensure that a circular wait condition can never exist.</li>
+    <h4>resource allocation state</h4>
+    <h5>Explaination:Suppose that a process is in “Blocked” state waiting for some I/O service. When the service is completed, it goes to the ready state. Process never goes directly to the running state from the waiting state. Only processes which are in ready state go to the running state whenever CPU allocated by operating system.</h5>
+
+    <li>Q5: For an effective operating system, when to check for deadlock?</li>
+    <h4>every time a resource request is made at fixed time intervals</h4>
+    <h5>Explaination:In an effective operating system, we must verify the deadlock each time a request for resources is made at fixed time intervals.</h5>
+  </ul>
+
+</div>
+</div>
+
+<%- include("footer") -%>

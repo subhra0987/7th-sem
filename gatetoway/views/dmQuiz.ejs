@@ -1,0 +1,32 @@
+<%- include("header") -%>
+
+<div class="main-div">
+
+  <div class="inner-div">
+    <form action="/dmQuiz" method="post">
+    <h2 class="questiondm"><%=questiondm%></h2>
+    <ul>
+      <li>
+        <input type="checkbox" name="option1dm" id="ans1dm" class="answerdm" >
+        <label for="ans1dm" id="option1dm"> <%=option1dm%> </label>
+      </li>
+      <li>
+        <input type="checkbox" name="option2dm" id="ans2dm" class="answerdm" >
+        <label for="ans2dm" id="option2dm"><%=option2dm%></label>
+      </li>
+      <li>
+        <input type="checkbox" name="option3dm" id="ans3dm" class="answerdm" >
+        <label for="ans3dm" id="option3dm"><%=option3dm%></label>
+      </li>
+      <li>
+        <input type="checkbox" name="option4dm" id="ans4dm" class="answerdm">
+        <label for="ans4dm" id="option4dm"><%=option4dm%></label>
+      </li>
+    </ul>
+          <button  id="submit" type="submit" name="button">submit</button>
+    </form>
+
+  </div>
+
+</div>
+<%- include("footer") -%>

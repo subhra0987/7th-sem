@@ -1,0 +1,33 @@
+
+
+<%- include("header") -%>
+<div class="main-div">
+<div class="inner-div">
+
+  <h2 class="question">Your Score is= <%= score %>/5</h2>
+  <ul>
+    <li>Q1: An Internet Service Provider(ISP) has the following chunk of CIDR-based IP addresses available with it:245.248.128.0/20. The ISP wants to give half of this chunk of addresses to Organization A, and a quarter to Organization B, while retaining the remaining with itself. Which of the following is a valid allocation of addresses to A and B?</li>
+    <h4>245.248.136.0/21 and 245.248.128.0/22</h4>
+    <h5>The 12th bit is set to 0, but we need only half of the 2048 address, 13th bit can be set to be 0 addresses to B is 245.248. 128.0/22. Hence the correct answer is 245.248.</h5>
+
+    <li>Q2:In the IPv4 addressing format, the number of networks allowed under Class C addresses is</li>
+    <h4>2^21</h4>
+    <h5>Explanation:A Class C address consists of a 24-bit network address and an 8-bit local host address. The first three bits in the network address indicate the network class, leaving 21 bits for the actual network address. Therefore, there are 2,097,152 possible network addresses and 256 possible local host addresses.</h5>
+
+    <li>Q3:Which of the following transport layer protocols is used to support electronic mail?</li>
+    <h4>SMTP</h4>
+    <h5>Explaination:E-mail uses SMTP as application layer protocol.</h5>
+
+    <li>Q4:The protocol data unit(PDU) for the application layer in the Internet stack is</li>
+    <h4>Message</h4>
+    <h5>Explaination:PDU for the application layer is messages. A protocol data unit (PDU) is a single unit of information transmitted among peer entities of a computer network. PDU for the physical layer is bits.</h5>
+
+    <li>Q5: If a Firewall which supports  4 layer design  can not</li>
+    <h4>Block HTTP traffic during 9:00 P.M to 5 A.M</h4>
+    <h5>Explaination:HTTP is an application layer protocol. Since firewall is at layer 4, it cannot block HTTP data.</h5>
+  </ul>
+
+</div>
+</div>
+
+<%- include("footer") -%>

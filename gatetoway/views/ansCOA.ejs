@@ -1,0 +1,31 @@
+<%- include("header") -%>
+<div class="main-div">
+<div class="inner-div">
+
+  <h2 class="questioncoa">Your Score is= <%= scorecoa %>/5</h2>
+  <ul>
+    <li>Q1: The drawback of building a large memory with DRAM is ______________</li>
+    <h4>The Slow speed of operation</h4>
+    <h5>Explaination: The DRAM’s were used for large memory modules for a long time until a substitute was found.</h5>
+
+    <li>Q2:In a 4M-bit chip organisation has a total of 19 external connections, then it has _______ address if 8 data lines are there.</li>
+    <h4>9</h4>
+    <h5>Explanation:To have 8 data lines and 19 external connections it has to have 9 address lines(i.e 512 x 8 organisation).</h5>
+
+    <li>Q3:The bit used to signify that the cache location is updated is ________</li>
+    <h4>Dirty bit</h4>
+    <h5>Explaination:When the cache location is updated in order to signal to the processor this bit is used.</h5>
+
+    <li>Q4: During a write operation if the required block is not present in the cache then ______ occurs.</li>
+    <h4>resource allocation state</h4>
+    <h5>Explaination:Suppose that a process is in “Blocked” state waiting for some I/O service. When the service is completed, it goes to the ready state. Process never goes directly to the running state from the waiting state. Only processes which are in ready state go to the running state whenever CPU allocated by operating system.</h5>
+
+    <li>Q5: The number successful accesses to memory stated as a fraction is called as _____</li>
+    <h4>Hit rate</h4>
+    <h5>Explaination:The hit rate is an important factor in performance measurement.</h5>
+  </ul>
+
+</div>
+</div>
+
+<%- include("footer") -%>

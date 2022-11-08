@@ -1,0 +1,32 @@
+<%- include("header") -%>
+
+<div class="main-div">
+
+  <div class="inner-div">
+    <form action="/dsQuiz" method="post">
+    <h2 class="questionds"><%=questionds%></h2>
+    <ul>
+      <li>
+        <input type="checkbox" name="option1ds" id="ans1ds" class="answerds" >
+        <label for="ans1ds" id="option1ds"> <%=option1ds%> </label>
+      </li>
+      <li>
+        <input type="checkbox" name="option2ds" id="ans2ds" class="answerds" >
+        <label for="ans2ds" id="option2ds"><%=option2ds%></label>
+      </li>
+      <li>
+        <input type="checkbox" name="option3ds" id="ans3ds" class="answerds" >
+        <label for="ans3ds" id="option3ds"><%=option3ds%></label>
+      </li>
+      <li>
+        <input type="checkbox" name="option4ds" id="ans4ds" class="answerds">
+        <label for="ans4ds" id="option4ds"><%=option4ds%></label>
+      </li>
+    </ul>
+          <button  id="submit" type="submit" name="button">submit</button>
+    </form>
+
+  </div>
+
+</div>
+<%- include("footer") -%>

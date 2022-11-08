@@ -1,0 +1,32 @@
+<%- include("header") -%>
+
+<div class="main-div">
+  
+  <div class="inner-div">
+    <form action="/cnQuiz" method="post">
+    <h2 class="question"><%=question%></h2>
+    <ul>
+      <li>
+        <input type="checkbox" name="option1" id="ans1" class="answer" >
+        <label for="ans1" id="option1"> <%=option1%> </label>
+      </li>
+      <li>
+        <input type="checkbox" name="option2" id="ans2" class="answer" >
+        <label for="ans2" id="option2"><%=option2%></label>
+      </li>
+      <li>
+        <input type="checkbox" name="option3" id="ans3" class="answer" >
+        <label for="ans3" id="option3"><%=option3%></label>
+      </li>
+      <li>
+        <input type="checkbox" name="option4" id="ans4" class="answer">
+        <label for="ans4" id="option4"><%=option4%></label>
+      </li>
+    </ul>
+          <button  id="submit" type="submit" name="button">submit</button>
+    </form>
+    
+  </div>
+    
+</div>
+<%- include("footer") -%>
